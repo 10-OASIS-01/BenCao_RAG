@@ -37,7 +37,15 @@ pip install -r requirements.txt
 - 运行 Neo4j，访问页面：http://localhost:7474（或 7687）
 - 设置账户及密码，初始账户和密码均为`neo4j`（`host`类型选择`bolt`）
 
-### 3. 构建知识图谱
+### 3. 配置open ai API-KEY
+在utils.py中设置你的api_key，api_base（默认无需设置）和model类型
+```
+    openai_api_key = ""
+    openai_api_base = ""
+    model = "gpt-3.5-turbo"
+```
+
+### 4. 构建知识图谱
 - 导入知识图谱数据（数据来源于：https://github.com/liuhuanyong/QASystemOnMedicalKG ）：
     ```sh
     python KGraph/python/build_medicalgraph.py
@@ -57,7 +65,7 @@ pip install -r requirements.txt
     python KGraph/chat_graph.py
     ```
 
-### 4. 运行本草RAG
+### 5. 运行本草RAG
 - 启动虚拟环境：
     ```sh
     activate xxx
