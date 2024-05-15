@@ -60,11 +60,6 @@ pip install -r requirements.txt
   )
   ```
 
-- 启动问答测试：
-    ```sh
-    python KGraph/chat_graph.py
-    ```
-
 ### 5. 运行本草RAG
 - 启动虚拟环境：
     ```sh
