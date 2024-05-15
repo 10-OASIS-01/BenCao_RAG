@@ -2,6 +2,10 @@
 
 🌿本草RAG医药智能助理是一个强大的基于大模型的医药知识问答系统，旨在通过集成上下文感知、互联网访问、知识图谱和检索增强生成来提升用户在知识密集型任务上的体验。即使对大模型了解不足的用户也能轻松利用本系统探索未知知识，享受其带来的乐趣和便利。
 
+<p align="center">
+  <img align="middle" src="figure/show.png" style="max-width: 50%; height: auto;" alt="ActiveRAG"/>
+</p>
+
 ## 功能介绍
 
 本草RAG医药智能助理支持以下功能：
