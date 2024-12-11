@@ -1,5 +1,4 @@
-# 🌿Bencao RAG Medical Intelligent Assistant [(Chinese README)](README_CN.md)
-
+# 🌿Bencao RAG Medical Intelligent Assistant [(README_CN)](README_CN.md)
 
 🌿The Bencao RAG Medical Intelligent Assistant is a powerful AI-based medical knowledge question-answering system, designed to enhance user experience in knowledge-intensive tasks by integrating context awareness, internet access, knowledge graphs, and retrieval-augmented generation. This system allows even users with limited knowledge of large models to easily explore unknown information and enjoy the convenience and fun it offers.
 
@@ -26,7 +25,7 @@ With internet access, the system can answer queries related to the latest medica
 Supports access to user-uploaded medical records, medical literature, and clinical guidelines, providing accurate medical answers based on the referenced information.
 
 ### 🕸️ Medical Knowledge Graph-Based Q&A System
-Generates answers based on traditional methods using a medical knowledge graph, without relying on large models, to fulfill specific medical query requirements.
+This component generates answers based on traditional methods using a medical knowledge graph, without relying on large models, to fulfill specific medical query requirements. **Note**: Since the underlying medical knowledge graph data is in Chinese, the Medical Knowledge Graph-Based Q&A System currently only supports question-answering in Chinese.
 
 ### 🧀 Knowledge Graph-Augmented Medical Q&A
 Uses the medical knowledge graph to provide deeper, more structured responses to medical inquiries, such as drug interactions, relationships between symptoms and treatment plans, etc.
